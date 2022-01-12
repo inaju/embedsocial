@@ -1,0 +1,20 @@
+.partners__container{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    color: #9CA0AC;
+    font-weight: 500;
+    margin-top:3rem;
+
+}
+
+.partners__containers-images{
+    display: flex;
+    flex-direction: row;
+}
+
+.partners__containers-images img{
+margin-left:1.5rem; 
+height:1.5rem;
+
+}

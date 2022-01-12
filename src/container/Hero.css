@@ -1,0 +1,184 @@
+/* 
+styles for  the hero
+*/
+.hero__container{
+    display:flex;
+    max-height:70vh;
+
+}
+
+.hero__container-text{
+    flex:1;
+    padding-top:1.8rem;
+
+    width:30rem;
+    text-align:left;
+    margin-top: 3rem;
+    max-width:27rem;
+
+}
+
+ .hero__container h1{
+font-weight: 900;
+font-size: 2rem;
+/* line-height: 2rem; */
+
+
+color: #000000;
+
+}
+.hero__container p{
+    font-weight: normal;
+font-size: 0.9rem;
+/* line-height: 24px; */
+max-width:22rem;
+height:3rem;
+
+/* or 133% */
+
+
+color: #000000;
+}
+
+.yellow{
+    background-color: yellow;
+    max-width:15rem;
+    height:60%;
+    padding:0 0.5rem;
+}
+
+
+/* Styles for the input */
+
+.hero__container-input{
+    display:flex;
+    flex-direction: row;
+    /* justify-content:flex-start; */
+    align-items:center;
+    justify-content:center;
+    background: #FFFFFF;
+    border: 3px solid #0066FF;
+    box-sizing: border-box;
+    border-radius: 5px 5px 5px 5px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    height:2.4rem;
+    width:24rem;
+    margin-top: 3rem;
+}
+.hero__container-input input{
+    flex:2;
+    display:flex;
+    place-items: center;
+    outline:none;
+    border:none;
+    /* border-radius: 5px 0px 0px 5px; */
+    padding-left:1rem;
+    /* width:10rem; */
+}
+
+.hero__container-input button{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+    background: #0066FF;
+    outline:none;
+    border:none;
+    /* Inside auto layout */
+
+    flex: 1;
+    /* flex-grow: 0; */
+    margin: 0px 0px;
+    height:100%;
+    color:#FFF;
+    font-weight: 550;
+    line-height:1rem;
+    font-size:0.8rem;
+    padding:auto;
+    text-align: center;
+}
+.bbold{
+    font-weight:900;
+    font-size:1rem;
+    color: #FFF;
+    margin-left: 0.2rem;
+}
+
+.hero__container-input button > *{
+    padding:0.2rem;
+}
+
+
+/* 
+Styles for the subtext
+*/
+
+.hero__container-subtext{
+    display:flex;
+    font-size:0.3rem;
+    place-items: center;
+
+}
+
+.hero__container-subtext p{
+    margin-right:1rem;
+    font-size:0.75rem;
+    text-align:center;
+    font-weight: 600;
+
+
+}
+
+
+.hero__container-image{
+    margin-top:1rem;
+    flex:1;
+    display:flex;
+    align-items:flex-start;
+    max-height: 80px;
+}
+
+
+.social__image {
+    display:flex;
+    flex-direction: column;
+}
+
+.social__image img {
+    object-fit:contain;
+    /* width:10rem; */
+    padding:0;
+    margin:0;
+    /* height:15rem;  */
+}
+.woman_sweater{
+    height:20rem;
+}
+.popup{
+    height:5rem;
+
+}
+.food__image__1{
+height:12rem;
+margin:0;
+padding:0;
+
+}
+.social__image > * {
+    object-fit:contain;
+
+margin:0;
+padding:0;
+
+} 
+
+.food__images{
+    display:flex;
+    flex-direction: column;
+}
+
+
+/* background: linear-gradient(180deg, rgba(214, 218, 228, 0) 0%, rgba(214, 218, 228, 0.2) 100%);} */
