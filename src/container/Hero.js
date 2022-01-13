@@ -8,11 +8,12 @@ import Frame_949 from '../assets/Frame_949.png'
 
 
 import {AiOutlineArrowRight} from 'react-icons/ai'
+import Partners from './Partners'
 
 
 function Hero() {
     return (
-        <div className="hero__container padding-left padding-right">
+        <section className="hero__container padding-left padding-right">
             <div className="hero__container-info">
 
 
@@ -55,7 +56,6 @@ function Hero() {
             <div className="social__image">
             <img className="popup" src={popupFree} alt="" srcset="" />
 
-            {/* <img className="story__progress" src={Group_865} alt="" srcset="" /> */}
 
             <img className="woman_sweater" src={Rectangle_28} alt="" srcset="" />
 
@@ -66,11 +66,13 @@ function Hero() {
             <img className="food__image__1" src={Frame_949} alt="" srcset="" />
 
             </div>
-
+            
 
         </div>
+
         
-        </div>
+        
+        </section>
     )
 }
 

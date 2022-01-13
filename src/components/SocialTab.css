@@ -1,0 +1,36 @@
+
+
+.socialtab__container{
+    width: 7rem;
+    max-height: 6rem;
+    background-color:#FFF;
+    display:flex;
+    flex-direction:column;
+    place-items: center;
+    padding:1.2rem;
+    border-radius:10px;
+    margin:0;
+    
+}
+.socialtab__container p{
+    font-size: 0.8rem;
+    margin-top:0.2rem;
+}
+
+.socialtab__container h3{
+    margin-top:0.5rem;
+    font-weight:bold;
+    font-size: 0.9rem;
+}
+.socialtab__container img{
+    width: 100%;
+    height:2rem;
+    object-fit: contain;
+}
+
+.socialtab__container > *{
+    margin:0
+
+ 
+}
+

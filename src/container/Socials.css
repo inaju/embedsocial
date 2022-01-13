@@ -1,0 +1,44 @@
+.socials__container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background: #EEF1F7;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+
+}
+
+.socials__container-tab{
+    display:flex;
+    flex-flow:wrap;
+}
+
+
+
+.socials__container-tab > *{
+    margin:0.5rem;
+}
+
+.socials__container-text{
+    margin-bottom: 2rem;
+    max-width:45%;
+    font-size: 1.5rem;
+}
+
+.socials__container-text p{
+    font-size: 1rem;
+} 
+
+
+.socials__container-text h2{
+    margin:0;
+}
+
+
+@media screen and (max-width:1050px) {
+    .socials__container-tab{
+        max-width: 75%;
+    }
+    
+}

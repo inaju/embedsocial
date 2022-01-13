@@ -4,10 +4,10 @@ import './Menu.css'
 
 function Menu() {
     return (
-        <div className="navbar__clickable">
+        <div className="menu__clickable-mobile">
 
         
-            <div className="navbar__links">
+            <div className="menu__links">
                 <a href="#">Platform</a>
                 <a href="#">Widgets</a>
                 <a href="#">Templates</a>
@@ -15,7 +15,7 @@ function Menu() {
 
             </div>
 
-            <div className="navbar__sign">
+            <div className="menu__sign">
             <p>Login</p>
             <button>Start Free Trial</button>
             </div>

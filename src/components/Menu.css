@@ -1,0 +1,19 @@
+.menu__clickable-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.menu__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+ 
+}
+
+.menu__sign{
+    display: flex;
+}

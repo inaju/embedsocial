@@ -10,7 +10,7 @@ import nike from '../assets/nike.png'
 
 function Partners() {
     return (
-        <div className="partners__container">
+        <section className="partners__container">
             <div className="partners__container-text">
                 <p>JOIN 50,000+ WEBSITES THAT USE EMBEDSOCIAL TO SELL MORE</p>
             </div>
@@ -30,7 +30,7 @@ function Partners() {
 
 
 
-        </div>
+        </section>
     )
 }
 

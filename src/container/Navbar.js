@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Navbar.css'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import Menu from '../components/Menu';
@@ -6,6 +6,8 @@ import Group_335 from '../assets/Group_335.png'
 
 
 function Navbar() {
+    const [toggleMenu, setToggleMenu]=useState()
+
     return (
         <div className="navbar__container padding-left padding-right">
             <div className="navbar__logo">
@@ -29,7 +31,20 @@ function Navbar() {
             <p>Login</p>
             <button>Start Free Trial</button>
             </div>
+            <div className="navbar__mobile">
+            {
+                toggleMenu ? 
+                <RiCloseLine onClick={()=> setToggleMenu(false)} />
+                : <RiMenu3Line onClick={()=> setToggleMenu(true)} />
+            }
+
+            { toggleMenu && (
+                <Menu />
+            )}
+
             {/* <Menu /> */}
+
+            </div>
             </div>  
     )
 }
