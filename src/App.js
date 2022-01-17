@@ -7,16 +7,18 @@ import Widgets from './container/Widgets';
 import Socials from './container/Socials';
 import Conversions from './container/Conversions';
 import Footer from './container/Footer';
-
+import Templates from './container/Templates';
+// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
      <Navbar />
      <Hero />
-     <Partners />
+     {/* <Partners /> */}
      <Widgets />
      <Socials />
      <Conversions />
+     {/* <Templates /> */}
      <Footer />
     </div>
   );

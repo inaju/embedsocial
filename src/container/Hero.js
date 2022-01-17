@@ -31,7 +31,7 @@ function Hero() {
 
 
                 <div className="hero__container-input">
-                    <input type="text" placeholder="Enter your Email...."/>
+                    <input type="text" />
                     <button className="hero__container-input__button">
                         
                         Start Free Trial

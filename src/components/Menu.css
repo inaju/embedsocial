@@ -17,3 +17,77 @@
 .menu__sign{
     display: flex;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .menu__clickable-mobile{
+        position: absolute;
+        top:2rem;
+        right:0.5rem;
+        background:black;
+        /* padding:1rem; */
+        color:white;
+        padding:1rem 1rem 2rem 2rem
+    }
+
+    .menu__links a{
+        color:white;
+        margin-bottom: 0.5rem;
+        text-decoration: none;
+        outline:none;
+        font-weight: bold;
+
+    }
+
+    .menu__links a:hover{
+        padding:0.4rem;
+    }
+
+    .menu__sign{
+        margin-top:2rem;
+        display: flex;
+        place-items: flex-start;
+        /* align-items:center;
+        justify-content: center;    */
+    }
+
+    .menu__sign p{
+        margin-right:1.5rem;
+        font-weight: bold;
+    }
+
+    .menu__sign button{
+        background-color: yellow;
+        color:black;
+        font-weight: bold;
+        outline:none;
+        border:none;
+        padding:0.5rem;
+        border-radius: 5px;
+
+    }
+
+    .menu__sign button:hover{
+        padding:0.6rem;
+    }
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+}

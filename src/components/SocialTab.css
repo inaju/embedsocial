@@ -1,20 +1,22 @@
 
 
 .socialtab__container{
-    width: 7rem;
-    max-height: 6rem;
+    width: 7.5rem;
+    min-height: 6.5rem;
     background-color:#FFF;
     display:flex;
     flex-direction:column;
-    place-items: center;
-    padding:1.2rem;
+    /* place-items: center; */
+    align-items:center;
+    justify-content:center;
+    padding:1rem;
     border-radius:10px;
     margin:0;
     
 }
 .socialtab__container p{
     font-size: 0.8rem;
-    margin-top:0.2rem;
+    margin:0.2rem 0 0 1rem;
 }
 
 .socialtab__container h3{

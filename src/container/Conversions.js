@@ -1,4 +1,3 @@
-import React from 'react'
 import ConversionsTab from '../components/ConversionsTab'
 import './Conversions.css'
 import increase from '../assets/increase.png'
@@ -7,16 +6,12 @@ import ig_white from '../assets/ig_white.png'
 import conversion_pic from '../assets/conversion_pic.png'
 
 
-
-
 function Conversions() {
     return (
         <div className="conversions__container padding-left padding-right section-margin">
             <div className="conversions__container-header">
             <h2 id="conversions__h2__text">Double your <span className="yellow">conversions.</span></h2>
             <h2 >Double your <span className="yellow">growth.</span></h2>
-          
-
             </div>
 
             <div className="conversions__container-tab">

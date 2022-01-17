@@ -1,7 +1,6 @@
 import React from 'react'
 import SocialTab from '../components/SocialTab'
 import './Socials.css'
-
 import instagram from '../assets/instagram.png'
 import facebook from '../assets/facebook.png'
 import tiktok from '../assets/tiktok.png'

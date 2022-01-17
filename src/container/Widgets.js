@@ -11,7 +11,7 @@ import Tab from '../components/Tab'
 
 function Widgets() {
     return (
-        <section className="widgets__container padding-left padding-right">
+        <div className="widgets__container padding-left padding-right">
 
             <div className="widgets__container-image">
                 <img src={widgets} alt="" srcset="" />
@@ -37,7 +37,7 @@ function Widgets() {
             </div>
 
 
-        </section>
+        </div>
     )
 }
 

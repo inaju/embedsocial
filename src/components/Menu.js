@@ -16,8 +16,8 @@ function Menu() {
             </div>
 
             <div className="menu__sign">
-            <p>Login</p>
-            <button>Start Free Trial</button>
+                <p>Login</p>
+                <button>Start Free Trial</button>
             </div>
 
             </div>

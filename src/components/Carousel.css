@@ -1,0 +1,61 @@
+
+
+.card-wrapper {
+    background-color:#111827;
+
+    position: relative;
+    width: 100%;
+    /* padding: 0 10px; */
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            margin:0;
+  }
+  
+  .card-wrapper:active, .card-wrapper:hover, .card-wrapper:focus {
+    outline: none;
+    border: none;
+  }
+  
+  .card {
+  
+    /* width: 50%; */
+    /* height: 450px; */
+    border-radius: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    outline:none;
+    height:20rem;
+    width:15rem;
+    
+  }
+  
+  .card .card-image {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 70%;
+    z-index: 2;
+    background-color: #000;
+    -webkit-transition: .5s;
+    transition: .5s;
+    color: white;
+  }
+  
+  .card .card-image img {
+    width: 100%;
+    height: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+
+  .slick-dots{
+margin:0 !important;
+
+  }
+
+  .slick-slide, .slick-active, .slick-current{
+      margin:0;
+  }

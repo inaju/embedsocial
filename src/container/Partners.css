@@ -6,7 +6,6 @@
     margin-top:3rem;
     background: linear-gradient(180deg, rgba(214, 218, 228, 0) 0%, rgba(214, 218, 228, 0.2) 100%);
 padding-bottom: 2rem;
-
 }
 
 .partners__container-text p{
@@ -26,3 +25,43 @@ margin-left:1.5rem;
 height:1.5rem;
 
 }
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+
+    .navbar__container{
+        padding-top:0.5rem;
+        padding-bottom:0.5rem;
+    }
+    .hero__container-subtext{
+        margin-top:0.7rem;
+    }
+   
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .partners__container{
+        display:none;
+        visibility:hidden;
+    }
+    .partners__container-text{
+        display:none;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+}
+

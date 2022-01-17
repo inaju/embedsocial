@@ -4,41 +4,14 @@
     background: #EEF1F7;
     border-radius: 10px;
     max-width: 20rem;
-    height: 8rem;
-    padding:1rem 0.5rem 2rem 1rem;
+    min-height: 8rem;
+    padding:1rem 0.5rem 0rem 1rem;
 
     text-align: left;
     font-size: 0.8rem;
+    display:flex;
 
 
-/* Auto layout 
-
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 2rem;
-
-max-width: 15rem;
-height: 5rem;
-left: 0px;
-top: 0px;
-*/
-
-/* bg-gray-light
-
-background: #EEF1F7;
-border-radius: 10px;
- */
-/* Inside auto layout 
-
-flex: none;
-order: 0;
-*/
-/* align-self: stretch; 
-flex-grow: 0;
-margin: 0px 20px;
-*/
 }
 
 
@@ -77,3 +50,41 @@ margin: 0px 20px;
     /* margin:0; */
 
 }
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .conversionstab__container{
+        flex-direction: column;
+        
+    }
+    
+
+   
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+@media screen and (max-width:1050px) {
+
+
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
