@@ -10,6 +10,7 @@
     text-align: left;
     font-size: 0.8rem;
     display:flex;
+    flex-direction:column;
 
 
 }
@@ -18,6 +19,7 @@
 .conversionstab__container-image{
     display: flex;
     place-items: center;
+    margin:0.8rem 0 0.8rem 0
 }
 
 .conversionstab__container-image img{
