@@ -18,7 +18,7 @@ function App() {
      <Widgets />
      <Socials />
      <Conversions />
-     {/* <Templates /> */}
+     <Templates />
      <Footer />
     </div>
   );

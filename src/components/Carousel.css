@@ -59,3 +59,25 @@ margin:0 !important;
   .slick-slide, .slick-active, .slick-current{
       margin:0;
   }
+
+
+  .carousel__container{
+    background-color:chocolate;
+    margin-bottom: 5rem;
+  }
+
+  .slider__container{
+    display: flex;
+    background-color: black;
+    color: white;
+  }
+
+  .first__carousel{
+    display: flex !important;
+    flex-direction:row;
+  }
+
+  .carousel__item{
+    margin:1rem auto 1rem ;
+    max-width: 10rem;
+  }

@@ -90,7 +90,7 @@ color: #000000;
     background: #0066FF;
     outline:none;
     border:none;
-    border-radius: 0px 5px 5px 0px;
+    /* border-radius: 0px 5px 5px 0px; */
     /* Inside auto layout */
 
     flex: 1;

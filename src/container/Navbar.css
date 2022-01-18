@@ -22,9 +22,15 @@ width:100vw;
 box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 padding:auto auto
 }
+
 .navbar__sign{
-    display: flex;
+    display:flex;
 }
+.navbar__sign p{
+    margin-top: 1rem;
+    
+}
+
 .navbar__sign>*{
     margin-right:1rem;
 
